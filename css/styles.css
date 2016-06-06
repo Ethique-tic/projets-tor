@@ -178,7 +178,6 @@ header .intro-text .intro-lead-in{
 
 /************** intro section ****************/
 /********************************************/
-
 #introduction a {
   text-transform: uppercase;
   font-weight: bold;
@@ -189,12 +188,34 @@ header .intro-text .intro-lead-in{
   border: 2px solid;
 }
 
-/********** common for all sections **********/
+/************** Sources section *************/
 /********************************************/
 a#displaySource  {
   background-color: #ffffff;
   border-radius: 25px;
   color:#551a8b;
+}
+
+#sourcesModal a {
+  color: #551a8b;
+}
+.panel .btn-default,.panel .btn-default:hover,
+.panel .btn-default:focus, .panel .btn-default:active {
+  border-color: transparent;
+}
+.panel .btn:active {
+  box-shadow: none;
+  -webkit-box-shadow:none;
+}
+
+.sourcesCollapse {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.panel button {
+  font-style: italic;
 }
 
 /********** common for all sections **********/

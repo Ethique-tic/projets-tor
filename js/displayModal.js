@@ -15,9 +15,6 @@ $('#close'[0]).click(function() {
 });
 
 /* display source modal */
-var sourceModal = document.getElementById('sourceModal');
-var displaySource = document.getElementById('displaySource');
-
 $('#displaySource').click(function(){
     $("#sourceModal").fadeIn();
     $('body').css('overflow','hidden');
