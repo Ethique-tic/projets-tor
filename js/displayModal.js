@@ -79,7 +79,9 @@ $(document).ready(function()
     });
 
     $('body').mouseup(function(){
-        if(!mouse_is_inside) $('.modal').fadeOut();
-        $('body').css('overflow','scroll');
+        if(!mouse_is_inside){
+          $('.modal').fadeOut();
+          $('body').css('overflow','scroll');
+        }
     });
 });
