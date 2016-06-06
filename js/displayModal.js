@@ -15,9 +15,6 @@ $('#close'[0]).click(function() {
 });
 
 /* display source modal */
-var sourceModal = document.getElementById('sourceModal');
-var displaySource = document.getElementById('displaySource');
-
 $('#displaySource').click(function(){
     $("#sourceModal").fadeIn();
     $('body').css('overflow','hidden');
@@ -79,7 +76,9 @@ $(document).ready(function()
     });
 
     $('body').mouseup(function(){
-        if(!mouse_is_inside) $('.modal').fadeOut();
-        $('body').css('overflow','scroll');
+        if(!mouse_is_inside){
+            $('.modal').fadeOut();
+            $('body').css('overflow','scroll');
+        }
     });
 });
