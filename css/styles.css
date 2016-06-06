@@ -78,7 +78,7 @@ section{
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1000px) {
   .navbar-default {
     background-color:#222;
   }
