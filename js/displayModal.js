@@ -5,6 +5,7 @@ $('#timelineImg').click(function(){
     $("#timelineModal").fadeIn();
     modalImg.src = this.src;
     modalImg.alt = this.alt;
+    $('#caption').html(this.alt);
     $('body').css('overflow','hidden'); /* prevent body to scroll */
 });
 
