@@ -208,8 +208,6 @@ function svgElementClickedTimeline(name)
         div.className = "col-md-12 col-xs-12";
         divTexte.className = "col-md-12 col-xs-12";
         div.style.display="none";
-        //img.style.visibility="visible";
-        //img.src = "img/timeline/www.jpg";
         img.style.visibility="hidden";
         img.src="";
         break;
@@ -251,9 +249,9 @@ function svgElementClickedTimeline(name)
           s.innerHTML = torAlpha;
           date.innerHTML="2008";
           titre.innerHTML = "Lancement de la version alpha de TOR";
-          div.className = "col-md-12 col-xs-6"; // col-md-12 col-sm-6 col-xs-12 vertical-centered
-          divTexte.className = "col-md-12 col-xs-6"; // waiting for text to come.
-          div.style.display="block";
+          div.className = "col-md-12 col-sm-6 col-xs-12 vertical-centered";
+          divTexte.className = "col-md-12 col-sm-6 col-xs-12 vertical-centered";
+          div.style.display="";
           img.style.visibility="visible";
           img.src = "img/timeline/torAlpha.png";
           img.alt = "image : torproject.org";
